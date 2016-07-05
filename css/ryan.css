@@ -1695,6 +1695,7 @@ p {
 }
 
 .modal-footer-custom {
+    display: none;
     text-align: center;
     position: relative;
     margin-top: 647px;
