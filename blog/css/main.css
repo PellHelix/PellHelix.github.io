@@ -1,0 +1,188 @@
+.navbar-smoke {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+#branding:hover {
+    border-bottom: solid 1px white;
+    color: white;
+    
+}
+
+.navbar-padding {
+    padding-left: 50px;
+}
+#nav-item:hover {
+    border-bottom: solid 1px white;
+    color: white;
+}
+
+.parallaxed {
+    height: 1080px;
+    overflow: auto;
+    
+}
+
+.main-logo {
+    height: 500px;
+    margin-top: 51px;
+}
+
+.fight-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15pt;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fight-button:hover {
+    border: solid 3px rgb(2, 155, 215);
+    
+}
+
+.fight-button > p {
+    padding-top: 12px;
+}
+
+.para-body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 25pt;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+
+}
+
+
+.para-text-bg {
+    background-color:rgba(255,0,0,0.5);
+
+}
+
+.para-head {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 50pt;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    -webkit-text-stroke: 1px black;
+}
+
+.sfm-logo {
+    margin: 0 auto;
+    background: url('img/sfm-large.png') no-repeat;
+}
+
+.down-button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.bg-1 {
+    background: url('img/1.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+    filter: blur(20%);
+}
+
+.bg-2 {
+    background: url('img/2.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+    background: url('img/93.jpeg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-4 {
+    background: url('img/98.jpeg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-5 {
+    background: url('img/cleanroom.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-6 {
+    background: url('img/96.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-7 {
+    background: url('img/97.jpeg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.partner-text {
+    text-align: center;
+}
+
+.partner-text h1 {
+    font-size: 39pt;
+    text-shadow: black;
+}
+
+.foot-mich {
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+    font-size: 15pt;
+}
+
+.smoke-footer {
+    height: 200px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.michigan {
+    position: absolute;
+    margin-top: 20px;
+    right: 13px;
+}
+
+.footer-text {
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    color: white;
+}
+
+.mc-form-styling{
+    position: absolute;
+    margin-top: 24px;
+    text-align: center;
+    margin-left: 41.3%;
+}
+
+.mc-btn {
+    background-color: #383838;
+    margin-top: 5px;
+}
