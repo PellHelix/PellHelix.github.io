@@ -95,7 +95,7 @@ a:hover {
     padding-top: 20px;
 }
 .bg-1 {
-    background: url('img/1.svg') no-repeat bottom center fixed;
+    background: url('img/1.png') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
     filter: blur(20%);
