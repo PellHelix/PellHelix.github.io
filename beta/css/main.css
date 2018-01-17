@@ -137,6 +137,27 @@ a:hover {
     background-size:cover;
 }
 
+
+.bg-8 {
+    background: url('img/8.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+
+.bg-9 {
+    background: url('img/9.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+
+.bg-10 {
+    background: url('img/10.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
 .partner-text {
     text-align: center;
 }
