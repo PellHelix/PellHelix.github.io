@@ -28,13 +28,34 @@
                 JS 
         =============================================== -->
 
-    <script src="/js/bootstrap.min.js" type="text/javascript">
-</script>
-    <script src="/js/npm.js" type="text/javascript">
-</script>
-    <script src="/js/parallax.js" type="text/javascript">
-</script>
+<script src="/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/npm.js" type="text/javascript"></script>
+<script src="/js/parallax.js" type="text/javascript"></script>
     
+<script> 
+
+$(function() {
+    if( document["documentMode"] ) { // If Internet Explorer 10, 11
+        var cssClass = "ie" + document["documentMode"];
+        $('body').addClass(cssClass);
+    }
+});
+</script>
+
+<style>
+
+.ie-dependant {
+  display:none;
+}
+
+body.ie11 .ie-dependant.ie11 {
+  display: block;
+}
+
+body.ie10 .ie-dependant.ie10 {
+  display: block;
+} </style>
 
 
 
@@ -92,6 +113,15 @@
 <![endif]-->
 
 
+<div class="ie-dependant ie10">
+  <div style=background-color:#282828;color:white;text-align:center;font-size:50px;height:100vh;width:100vw;padding-top:25%;position:fixed;z-index:100;> Internet Explorer is not suported on this cutting edge portfolio of modern web design. I recommend Firefox. </div>
+
+</div>
+
+<div class="ie-dependant ie11">
+  <div style=background-color:#282828;color:white;text-align:center;font-size:50px;height:100vh;width:100vw;padding-top:25%;position:fixed;z-index:100;> Internet Explorer is not suported on this cutting edge portfolio of modern web design. I recommend Firefox. </div>
+
+</div>
 
 
     <div class="">
