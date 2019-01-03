@@ -34,7 +34,7 @@ body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-do
   width: 100%;
 }
 
-.gray-bg {
+.bg-color {
   background-color:#282828;
   )
 
