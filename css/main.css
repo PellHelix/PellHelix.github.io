@@ -28,6 +28,8 @@ body:not(.pace-done) > :not(.pace),body:not(.pace-done):before,body:not(.pace-do
 .pace .pace-progress {
   background-color: rgba(40, 40, 40, 0.19999999999999996);
   position: fixed;
+  border: 5px solid;
+  border-color: #CC3168;
   z-index: -1;
   top: 0;
   right: 100%;
