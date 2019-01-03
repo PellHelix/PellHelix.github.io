@@ -43,10 +43,27 @@
     }
 }(jQuery));
 
-$('.bg-1,.bg-3,').parallax({
+$('.bg-color,').parallax({
 	speed :	0.15
 });
 
-$('.bg-4, .bg-11, .bg-31').parallax({
+$('').parallax({
 	speed :	0.25
 });
+
+(function($) {
+    var $window = $(window),
+        $html = $('html');
+
+    function resize() {
+        if ($window.width() < 514) {
+            return $html.addClass('bg-color');
+        }
+
+        $html.removeClass('bg-color');
+    }
+
+    $window
+        .resize(resize)
+        .trigger('resize');
+})(jQuery);
