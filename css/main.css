@@ -1,4 +1,4 @@
-body {background-color:#282828;}
+body {background-color:#FFF;}
 body > :not(.pace),body:before,body:after {
   -webkit-transition:opacity .4s ease-in-out;
   -moz-transition:opacity .4s ease-in-out;
