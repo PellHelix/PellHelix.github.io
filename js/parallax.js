@@ -43,7 +43,7 @@
     }
 }(jQuery));
 
-$('.bg-color,').parallax({
+$('.desktop').parallax({
 	speed :	0.15
 });
 
@@ -51,19 +51,3 @@ $('').parallax({
 	speed :	0.25
 });
 
-(function($) {
-    var $window = $(window),
-        $html = $('html');
-
-    function resize() {
-        if ($window.width() < 514) {
-            return $html.addClass('bg-color');
-        }
-
-        $html.removeClass('bg-color');
-    }
-
-    $window
-        .resize(resize)
-        .trigger('resize');
-})(jQuery);
